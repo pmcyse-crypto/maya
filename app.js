@@ -69,3 +69,9 @@ app.post('/chat', async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Maya activa en puerto ${PORT}`));
+res.status(500).send("Error procesando la IA");
+  }
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Maya activa en puerto ${PORT}`));
