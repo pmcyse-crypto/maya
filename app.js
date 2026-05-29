@@ -35,3 +35,5 @@ app.post('/', (req, res) => {
 app.listen(port, () => {
   console.log(`\nListening on port ${port}\n`);
 });
+Bash
+npm install @google/generative-ai
